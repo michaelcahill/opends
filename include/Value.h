@@ -8,9 +8,11 @@
 #ifndef VALUE_H_
 #define VALUE_H_
 
+#include <map>
+
 namespace opends {
 
-class Value {
+class Value : public std::map<std::string, std::string> {
 
 };
 
